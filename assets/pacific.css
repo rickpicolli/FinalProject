@@ -1,0 +1,58 @@
+
+body {
+	color: darkgrey;
+	background-color: white;
+	background-image: url("background.jpg");
+	font-family: 'Gothic A1', sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 960px;
+	display: flex;
+}
+
+h1 {
+	background-color: #000033;
+	color: white; 
+	background-image: url('sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+h1, h2 {
+	font-family: Georgia, 'Times New Roman', sans-serif;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+#nav {
+	background-color: skyblue;
+	
+
+}
+
+a {
+	font-weight: bold;
+	padding: 5px;
+}
+
+label {
+	color: #000033;
+	font-weight: bold;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#footer {
+	font-size: 75%;
+	font-style: italic;
+}
+
+#imagegrid {
+	display: flex;
+}
