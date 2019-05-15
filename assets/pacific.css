@@ -1,6 +1,6 @@
 
 body {
-	color: grey;
+	color: 	dimgrey;
 	background-color: white;
 	background-image: url("background.jpg");
 	font-family: 'Gothic A1', sans-serif;
@@ -11,6 +11,10 @@ body {
 	min-width: 960px;
 	box-shadow: 10px 10px 5px grey;
 	background-color: skyblue;
+	position: absolute;
+	left: 9%;
+	top: 5%;
+	;
 }
 
 #firstgrid {
@@ -22,6 +26,7 @@ h1 {
 	background-image: url('sunset.jpg');
 	background-repeat: no-repeat;
 	background-position: right;
+	margin-top: 0px; 
 }
 
 h1, h2, h3 {
@@ -116,4 +121,30 @@ label {
 @keyframes mymove {
 	from {left: 0px;}
 	to {left: 80%;}
+}
+
+
+form {
+ 
+  background: lightgreen;
+  border: 1px solid black;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 5px grey;
+/*  max-width: 900px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  width: 100%;
+ /* text-align: right;*/
+}
+form input {
+  margin: 6px 0px;
+  background: white;
+  border: 1px solid #9c9c9c;
+  width: 100%;
+}
+
+form p {
+  margin: 6px 0px;
+
 }
